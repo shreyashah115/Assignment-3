@@ -11,7 +11,7 @@ var options = {
   url: "https://jikan1.p.rapidapi.com/search/anime",
   params: { q: query },
   headers: {
-    "x-rapidapi-key": "307b52db22msh61653aee9f42227p1a7986jsnd58b519186fa",
+    "x-rapidapi-key": process.env.API_KEY,
     "x-rapidapi-host": "jikan1.p.rapidapi.com",
   },
 };
